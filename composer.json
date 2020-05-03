@@ -1,0 +1,22 @@
+{
+    "name": "giucabral/digital-cep",
+    "description": "Buscador de Cep Online",
+    "license": "Dotneo",
+    "authors": [
+        {
+            "name": "Giuliano Cabral",
+            "email": "giucabral@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "php_dio\\DigitalCep\\": "src/"
+        }
+    }
+}
